@@ -1,4 +1,4 @@
-# NCF
+# NCF (Natural Conversational Framework) Ontology
 
 
 ## License
