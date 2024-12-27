@@ -10,8 +10,10 @@
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://example.org/phido_v2.owl">
         <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
-        <terms:creator>Tuan Amith, Xubing Hao</terms:creator>
+        <terms:creator>Tuan Amith, Xubing Hao, and Licong Cui</terms:creator>
+        <terms:description>NCF Ontology is based on knowledge derived from the Natural Conversation Framework (Moore and Arar), as well as, the amalgamation of theories of conversation analysis.</terms:description>
         <terms:title>Natural Conversation Framework Ontology</terms:title>
+        <owl:versionInfo>prototype</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1036,7 +1038,6 @@
     <!-- http://example.org/phido_v2.owl#NCF_0000110 -->
 
     <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000110">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000109"/>
         <rdfs:comment>&quot;conversational actions for getting around the conversation space that are easy for users to remember&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>conversation navigation</rdfs:label>
     </owl:Class>
@@ -1046,7 +1047,6 @@
     <!-- http://example.org/phido_v2.owl#NCF_0000111 -->
 
     <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000111">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000109"/>
         <rdfs:comment>expandable sequences, like an accordion [Moore et al. 2016, Moore 2018]. Compact sequences are common, but each sequence can be expanded by either party as needed.</rdfs:comment>
         <rdfs:label>interaction model</rdfs:label>
     </owl:Class>
@@ -1056,7 +1056,6 @@
     <!-- http://example.org/phido_v2.owl#NCF_0000112 -->
 
     <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000112">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000109"/>
         <rdfs:comment>Style and presentation of the content of an utterance</rdfs:comment>
         <rdfs:label>content format</rdfs:label>
     </owl:Class>
@@ -1066,7 +1065,6 @@
     <!-- http://example.org/phido_v2.owl#NCF_0000113 -->
 
     <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000113">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000109"/>
         <rdfs:comment>&quot;formal structures or patterns of human talk-in-interaction&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>pattern language</rdfs:label>
     </owl:Class>
@@ -1163,7 +1161,7 @@
     <!-- http://example.org/phido_v2.owl#NCF_0000123 -->
 
     <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000123">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000122"/>
+        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000130"/>
         <rdfs:comment>A type of TCU that initaties an adjacency pair</rdfs:comment>
         <rdfs:label>first pair part</rdfs:label>
         <core:altLabel>fpp</core:altLabel>
@@ -1174,7 +1172,7 @@
     <!-- http://example.org/phido_v2.owl#NCF_0000124 -->
 
     <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000124">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000122"/>
+        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000130"/>
         <rdfs:comment>A type of TCU that closes an adjacency pair</rdfs:comment>
         <rdfs:label>second pair part</rdfs:label>
         <core:altLabel>spp</core:altLabel>
@@ -1185,7 +1183,6 @@
     <!-- http://example.org/phido_v2.owl#NCF_0000125 -->
 
     <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000125">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000122"/>
         <rdfs:comment>Smallest unit of speech</rdfs:comment>
         <rdfs:label>utterance</rdfs:label>
     </owl:Class>
@@ -1291,7 +1288,6 @@
     <!-- http://example.org/phido_v2.owl#NCF_0000136 -->
 
     <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000136">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000111"/>
         <rdfs:comment>&quot;Sequences are general patterns that, like tools or devices, can be used and reused in all kinds of different situations and settings, for all kinds of different purposes. &quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>sequence</rdfs:label>
     </owl:Class>
