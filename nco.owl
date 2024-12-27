@@ -11,8 +11,8 @@
     <owl:Ontology rdf:about="http://example.org/phido_v2.owl">
         <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <terms:creator>Tuan Amith, Xubing Hao, and Licong Cui</terms:creator>
-        <terms:description>NCF Ontology is based on knowledge derived from the Natural Conversation Framework (Moore and Arar), as well as, the amalgamation of theories of conversation analysis.</terms:description>
-        <terms:title>Natural Conversation Framework Ontology</terms:title>
+        <terms:description>Natural Conversation Ontology (NCO) is based on knowledge derived from the Natural Conversation Framework (Moore and Arar), as well as, the amalgamation of theories of conversation analysis.</terms:description>
+        <terms:title>Natural Conversation Ontology</terms:title>
         <owl:versionInfo>prototype</owl:versionInfo>
     </owl:Ontology>
     
