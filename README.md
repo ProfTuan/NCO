@@ -2,7 +2,7 @@
 
 http://w3id.org/nco
 
-Under development
+Under development ... check back later
 
 
 ## Developers
