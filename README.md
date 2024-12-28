@@ -1,6 +1,9 @@
 # Natural Conversational Ontology (NCO)
 
+http://w3id.org/nco
+
 Under development
+
 
 ## Developers
 
