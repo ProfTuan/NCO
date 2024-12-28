@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://example.org/phido_v2.owl#"
-     xml:base="http://example.org/phido_v2.owl"
+<rdf:RDF xmlns="http://w3id.org/nco#"
+     xml:base="http://w3id.org/nco"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -14,7 +14,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://example.org/phido_v2.owl">
+    <owl:Ontology rdf:about="http://w3id.org/nco">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2022-11-07/iao.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omrse/releases/2024-11-25/omrse.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2024-04-24/ro.owl"/>
@@ -38,709 +38,709 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000001 -->
+    <!-- http://w3id.org/nco#NCF_0000001 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000001">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000113"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000001">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000113"/>
         <rdfs:comment>Conversational patterns involving methods to connect or discconect with participants</rdfs:comment>
         <rdfs:label>conversation level management</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000002 -->
+    <!-- http://w3id.org/nco#NCF_0000002 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000002">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000001"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000002">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000001"/>
         <rdfs:comment>A pattern involving &quot;methodically and collaboratively close down the encounter...using the activities of opening and closing to mark the boundaries between this  conversation and the next one.&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>closing</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000003 -->
+    <!-- http://w3id.org/nco#NCF_0000003 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000003">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000001"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000003">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000001"/>
         <rdfs:comment>A pattern involving &quot;disengagements [that] may be temporary or terminal. Besides the user or agent simply failing to continue, users may ask to be transferred to a human, or users may start talking to someone else in the room, agents may refuse to continue talking, and more.&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>disengaging</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000004 -->
+    <!-- http://w3id.org/nco#NCF_0000004 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000004">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000001"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000004">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000001"/>
         <rdfs:comment>&quot;secur[ing] the attention of the intended recipient and establish that we are talking to each other.&quot; (Moore and Arar, 2019). This is pattern is initiated by the agent</rdfs:comment>
         <rdfs:label>opening by agent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000005 -->
+    <!-- http://w3id.org/nco#NCF_0000005 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000005">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000001"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000005">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000001"/>
         <rdfs:comment>&quot;secur[ing] the attention of the intended recipient and establish that we are talking to each other.&quot; (Moore and Arar, 2019). This is pattern is initiated by the user</rdfs:comment>
         <rdfs:label>opening by user</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000006 -->
+    <!-- http://w3id.org/nco#NCF_0000006 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000006">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000001"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000006">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000001"/>
         <rdfs:comment>A pattern involving &quot;talk[ing] to the agent about what it can do. For a virtual agent to be intelligent and conversational, it must be able to talk about what it can and cannot do.&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>capabilities</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000007 -->
+    <!-- http://w3id.org/nco#NCF_0000007 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000007">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000002"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000007">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000002"/>
         <rdfs:label>closing offer disaffirmed</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000008 -->
+    <!-- http://w3id.org/nco#NCF_0000008 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000008">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000002"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000008">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000002"/>
         <rdfs:label>closing offer affirmed</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000009 -->
+    <!-- http://w3id.org/nco#NCF_0000009 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000009">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000002"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000009">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000002"/>
         <rdfs:label>closing success check reopened</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000010 -->
+    <!-- http://w3id.org/nco#NCF_0000010 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000010">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000002"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000010">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000002"/>
         <rdfs:label>closing success check disaffirmed</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000011 -->
+    <!-- http://w3id.org/nco#NCF_0000011 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000011">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000002"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000011">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000002"/>
         <rdfs:label>closing success check affirmed</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000012 -->
+    <!-- http://w3id.org/nco#NCF_0000012 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000012">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000002"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000012">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000002"/>
         <rdfs:label>closing name request by agent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000013 -->
+    <!-- http://w3id.org/nco#NCF_0000013 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000013">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000002"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000013">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000002"/>
         <rdfs:label>closing appreciation by organizational</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000014 -->
+    <!-- http://w3id.org/nco#NCF_0000014 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000014">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000002"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000014">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000002"/>
         <rdfs:label>closing farewell by user</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000015 -->
+    <!-- http://w3id.org/nco#NCF_0000015 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000015">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000002"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000015">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000002"/>
         <rdfs:label>pre-closing by user</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000016 -->
+    <!-- http://w3id.org/nco#NCF_0000016 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000016">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000002"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000016">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000002"/>
         <rdfs:label>last topic check by user</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000017 -->
+    <!-- http://w3id.org/nco#NCF_0000017 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000017">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000002"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000017">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000002"/>
         <rdfs:label>last topic check by agent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000018 -->
+    <!-- http://w3id.org/nco#NCF_0000018 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000018">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000003"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000018">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000003"/>
         <rdfs:label>offense complaint by user</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000019 -->
+    <!-- http://w3id.org/nco#NCF_0000019 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000019">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000003"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000019">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000003"/>
         <rdfs:label>offense complaint by agent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000020 -->
+    <!-- http://w3id.org/nco#NCF_0000020 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000020">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000003"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000020">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000003"/>
         <rdfs:label>recipient correction</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000021 -->
+    <!-- http://w3id.org/nco#NCF_0000021 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000021">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000003"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000021">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000003"/>
         <rdfs:label>transfer aborted</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000022 -->
+    <!-- http://w3id.org/nco#NCF_0000022 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000022">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000003"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000022">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000003"/>
         <rdfs:label>transfer successful</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000023 -->
+    <!-- http://w3id.org/nco#NCF_0000023 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000023">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000004"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000023">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000004"/>
         <rdfs:label>opening greeting by agent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000024 -->
+    <!-- http://w3id.org/nco#NCF_0000024 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000024">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000004"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000024">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000004"/>
         <rdfs:label>opening self-identification by agent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000025 -->
+    <!-- http://w3id.org/nco#NCF_0000025 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000025">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000004"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000025">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000004"/>
         <rdfs:label>opening name request by agent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000026 -->
+    <!-- http://w3id.org/nco#NCF_0000026 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000026">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000004"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000026">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000004"/>
         <rdfs:label>opening direct address by agent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000027 -->
+    <!-- http://w3id.org/nco#NCF_0000027 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000027">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000004"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000027">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000004"/>
         <rdfs:label>opening welfare check by agent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000028 -->
+    <!-- http://w3id.org/nco#NCF_0000028 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000028">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000004"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000028">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000004"/>
         <rdfs:label>opening organization offer of help by agent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000029 -->
+    <!-- http://w3id.org/nco#NCF_0000029 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000029">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000004"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000029">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000004"/>
         <rdfs:label>opening authentication by agent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000030 -->
+    <!-- http://w3id.org/nco#NCF_0000030 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000030">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000004"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000030">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000004"/>
         <rdfs:label>organizational problem request by agent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000031 -->
+    <!-- http://w3id.org/nco#NCF_0000031 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000031">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000005"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000031">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000005"/>
         <rdfs:label>greeting by user</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000032 -->
+    <!-- http://w3id.org/nco#NCF_0000032 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000032">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000005"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000032">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000005"/>
         <rdfs:label>summons by user</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000033 -->
+    <!-- http://w3id.org/nco#NCF_0000033 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000033">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000005"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000033">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000005"/>
         <rdfs:label>welfare check by user</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000034 -->
+    <!-- http://w3id.org/nco#NCF_0000034 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000034">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000005"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000034">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000005"/>
         <rdfs:label>displaced welfare check by user</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000035 -->
+    <!-- http://w3id.org/nco#NCF_0000035 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000035">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000006"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000035">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000006"/>
         <rdfs:label>general capability check</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000036 -->
+    <!-- http://w3id.org/nco#NCF_0000036 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000036">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000006"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000036">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000006"/>
         <rdfs:label>capability expansion</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000037 -->
+    <!-- http://w3id.org/nco#NCF_0000037 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000037">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000006"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000037">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000006"/>
         <rdfs:label>specific capability check</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000038 -->
+    <!-- http://w3id.org/nco#NCF_0000038 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000038">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000006"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000038">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000006"/>
         <rdfs:label>utterance suggestion</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000039 -->
+    <!-- http://w3id.org/nco#NCF_0000039 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000039">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000113"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000039">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000113"/>
         <rdfs:comment>&quot;Sequence-level management involves repairing a previous utterance in order to complete a sequence, closing a sequence, or aborting a sequence.&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>sequence level management</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000040 -->
+    <!-- http://w3id.org/nco#NCF_0000040 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000040">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000039"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000040">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000039"/>
         <rdfs:comment>This pattern is &quot;enable users to indicate that they are done with a sequence or activity and ready to move on. Sequence closers include several intents, including  acknowledgments (e.g., okay, ok, all right, got it), appreciations (e.g., thank you, thanks, ok thanks),  laughter tokens (e.g., haha, ha ha, lol),  positive assessments (e.g., great!, excellent, awesome!), or  negative assessments (e.g., too bad, oh well, that sucks).&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>sequence closer</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000041 -->
+    <!-- http://w3id.org/nco#NCF_0000041 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000041">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000039"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000041">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000039"/>
         <rdfs:comment>This pattern is repair that involves multiple turns beyond the SPP.</rdfs:comment>
         <rdfs:label>extended repair</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000042 -->
+    <!-- http://w3id.org/nco#NCF_0000042 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000042">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000039"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000042">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000039"/>
         <rdfs:comment>This pattern &quot;referr[s] specifically to the repeating and paraphrasing of prior utterances or parts of them.&quot; (Moore and Arar, 2019) This pattern can be initiated by the user</rdfs:comment>
         <rdfs:label>repair by user</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000043 -->
+    <!-- http://w3id.org/nco#NCF_0000043 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000043">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000039"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000043">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000039"/>
         <rdfs:comment>This pattern &quot;referr[s] specifically to the repeating and paraphrasing of prior utterances or parts of them.&quot; (Moore and Arar, 2019) This pattern can be initiated by the agent</rdfs:comment>
         <rdfs:label>repair by agent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000044 -->
+    <!-- http://w3id.org/nco#NCF_0000044 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000044">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000039"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000044">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000039"/>
         <rdfs:comment>This pattern involving &quot;abandon[ing] a failing sequence without completing or closing it, with phrases like &apos;nevermind&apos;, &apos;nvm&apos;, &apos;forget it&apos;, &apos;I give up&apos;, etc. This might be done when the agent fails to understand the user or to return the desired information and the user wishes to stop trying&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>sequence abort</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000045 -->
+    <!-- http://w3id.org/nco#NCF_0000045 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000045">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000040"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000045">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000040"/>
         <rdfs:label>sequence closer - repaired</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000046 -->
+    <!-- http://w3id.org/nco#NCF_0000046 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000046">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000040"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000046">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000040"/>
         <rdfs:label>sequence closer appreciation - not helped</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000047 -->
+    <!-- http://w3id.org/nco#NCF_0000047 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000047">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000040"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000047">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000040"/>
         <rdfs:label>sequence closer appreciation - helped</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000048 -->
+    <!-- http://w3id.org/nco#NCF_0000048 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000048">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000040"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000048">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000040"/>
         <rdfs:label>sequence closer - not helped</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000049 -->
+    <!-- http://w3id.org/nco#NCF_0000049 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000049">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000040"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000049">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000040"/>
         <rdfs:label>sequence closer - helped</rdfs:label>
         <core:altLabel>sequence-closing thirds</core:altLabel>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000050 -->
+    <!-- http://w3id.org/nco#NCF_0000050 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000050">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000041"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000050">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000041"/>
         <rdfs:label>self correction</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000051 -->
+    <!-- http://w3id.org/nco#NCF_0000051 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000051">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000041"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000051">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000041"/>
         <rdfs:label>misunderstanding report</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000052 -->
+    <!-- http://w3id.org/nco#NCF_0000052 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000052">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000041"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000052">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000041"/>
         <rdfs:label>other hearing check and mishearing report</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000053 -->
+    <!-- http://w3id.org/nco#NCF_0000053 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000053">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000041"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000053">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000041"/>
         <rdfs:label>other correction</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000054 -->
+    <!-- http://w3id.org/nco#NCF_0000054 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000054">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000042"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000054">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000042"/>
         <rdfs:comment>A type of conversation navigation that &quot;elicit repeats of all or part of the agent&apos;s utterances&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>repeat request</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000055 -->
+    <!-- http://w3id.org/nco#NCF_0000055 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000055">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000042"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000055">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000042"/>
         <rdfs:label>repeat request default</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000056 -->
+    <!-- http://w3id.org/nco#NCF_0000056 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000056">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000042"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000056">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000042"/>
         <rdfs:label>partial repeat request</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000057 -->
+    <!-- http://w3id.org/nco#NCF_0000057 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000057">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000042"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000057">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000042"/>
         <rdfs:label>hearing check confirmed</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000058 -->
+    <!-- http://w3id.org/nco#NCF_0000058 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000058">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000042"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000058">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000042"/>
         <rdfs:label>hearing check correction</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000059 -->
+    <!-- http://w3id.org/nco#NCF_0000059 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000059">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000042"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000059">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000042"/>
         <rdfs:label>paraphrase request</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000060 -->
+    <!-- http://w3id.org/nco#NCF_0000060 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000060">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000042"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000060">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000042"/>
         <rdfs:label>paraphrase request default</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000061 -->
+    <!-- http://w3id.org/nco#NCF_0000061 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000061">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000042"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000061">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000042"/>
         <rdfs:label>definition request repair</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000062 -->
+    <!-- http://w3id.org/nco#NCF_0000062 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000062">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000042"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000062">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000042"/>
         <rdfs:label>definition request default</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000063 -->
+    <!-- http://w3id.org/nco#NCF_0000063 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000063">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000042"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000063">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000042"/>
         <rdfs:label>definition request standalone</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000064 -->
+    <!-- http://w3id.org/nco#NCF_0000064 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000064">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000042"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000064">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000042"/>
         <rdfs:label>example request</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000065 -->
+    <!-- http://w3id.org/nco#NCF_0000065 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000065">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000042"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000065">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000042"/>
         <rdfs:label>example request default</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000066 -->
+    <!-- http://w3id.org/nco#NCF_0000066 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000066">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000042"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000066">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000042"/>
         <rdfs:label>understanding check confirmed</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000067 -->
+    <!-- http://w3id.org/nco#NCF_0000067 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000067">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000042"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000067">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000042"/>
         <rdfs:label>understanding check disconfirmed</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000068 -->
+    <!-- http://w3id.org/nco#NCF_0000068 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000068">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000043"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000068">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000043"/>
         <rdfs:label>understanding check (agent)</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000069 -->
+    <!-- http://w3id.org/nco#NCF_0000069 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000069">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000043"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000069">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000043"/>
         <rdfs:label>paraphrase request (agent)</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000070 -->
+    <!-- http://w3id.org/nco#NCF_0000070 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000070">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000043"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000070">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000043"/>
         <rdfs:label>subsequent paraphrase requests</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000071 -->
+    <!-- http://w3id.org/nco#NCF_0000071 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000071">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000043"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000071">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000043"/>
         <rdfs:label>agent continuor</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000072 -->
+    <!-- http://w3id.org/nco#NCF_0000072 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000072">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000043"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000072">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000043"/>
         <rdfs:label>no answer account</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000073 -->
+    <!-- http://w3id.org/nco#NCF_0000073 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000073">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000043"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000073">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000043"/>
         <rdfs:label>repeat acknowledgement</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000074 -->
+    <!-- http://w3id.org/nco#NCF_0000074 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000074">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000044"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000074">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000044"/>
         <rdfs:label>sequence abort capability offer accept</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000075 -->
+    <!-- http://w3id.org/nco#NCF_0000075 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000075">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000044"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000075">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000044"/>
         <rdfs:label>sequence abort capability offer declined</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000076 -->
+    <!-- http://w3id.org/nco#NCF_0000076 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000076">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000113"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000076">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000113"/>
         <rdfs:comment>&quot;handle the main business of the conversation: what services the agent provides and what the user is trying to accomplish.&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>conversational activities</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000077 -->
+    <!-- http://w3id.org/nco#NCF_0000077 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000077">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000076"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000077">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000076"/>
         <rdfs:comment>The &quot;pattern may involve closed or open inquiries and different third-position checks by the agent to determine if the agent heard the user correctly or if the user has more to say. The agent inquiry pattern is especially useful for interviewing users or eliciting their opinions, where you wish to elicit and preserve the exact words of the user.&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>inquiry by agent</rdfs:label>
         <core:altLabel>agent inquiry</core:altLabel>
@@ -748,10 +748,10 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000078 -->
+    <!-- http://w3id.org/nco#NCF_0000078 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000078">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000076"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000078">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000076"/>
         <rdfs:comment>&quot;patterns can also be combined in a variety of ways to support pedagogical activities, such as tutoring. For example, the  extended telling pattern can be combined with the  quiz  pattern to teach the user new material and test his or her retention&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>teaching</rdfs:label>
         <core:altLabel>tutoring</core:altLabel>
@@ -759,10 +759,10 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000079 -->
+    <!-- http://w3id.org/nco#NCF_0000079 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000079">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000076"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000079">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000076"/>
         <rdfs:comment>A pattern that &quot;handles requests for information initiated by the user, for example in question-and-answer (Q&amp;A) scenarios. Like all conversational UX patterns, the pattern itself is separate from the content. In other words, agents may answer inquiries about health insurance, travel policies, movie trivia, small talk, and much more. For example, the agent may answer inquiries about computer history&quot; (Moore and Arar, 2019). This is pattern is initiated by the user.</rdfs:comment>
         <rdfs:label>inquiry by user</rdfs:label>
         <core:altLabel>user inquiry</core:altLabel>
@@ -770,396 +770,396 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000080 -->
+    <!-- http://w3id.org/nco#NCF_0000080 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000080">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000076"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000080">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000076"/>
         <rdfs:comment>A pattern where &quot;the user makes a request, for example in customer service conversations. It handles sets of related requests, or  topics, that require entity extraction and agent elicitations (a.k.a. &quot;slot filling&quot;). Multiple entities are captured, even when no request type is recognized, and preserved as context across the set of unique requests (i.e., intents).... [may] require a little more context design than standalone requests or &apos;slotted intents&apos;. They require a context variable for the topic that is relevant across multiple requests or intents.&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>open request</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000081 -->
+    <!-- http://w3id.org/nco#NCF_0000081 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000081">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000076"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000081">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000076"/>
         <rdfs:comment>A pattern where &quot;activities that typically require more than one turn to complete. Such extended tellings may be initiated by the user with requests like, &quot;tell me about Key West,&quot; &quot;tell me all the things you can do,&quot; &quot;tell me a story,&quot; &quot;how do I meditate?,&quot; &quot;how do I do that?,&quot; etc. The telling is then produced interactionally in the following way: the teller gives the first part of the telling and then waits for an indication from the recipient to continue the telling&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>extended telling</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000082 -->
+    <!-- http://w3id.org/nco#NCF_0000082 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000082">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000076"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000082">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000076"/>
         <rdfs:comment>&quot;the  quiz pattern involves the agent asking the user questions and evaluating the answers. The user can get the answer right, wrong, initiate a repair, or give up. The quiz is a basic conversation pattern that is used in pedagogical interactions, as well as for fun. The ordinary question-answer joke uses the quiz pattern, as do trivia games. In its simplest form, the quiz pattern is initiated by the user, who then answers the question correctly&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>quiz</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000083 -->
+    <!-- http://w3id.org/nco#NCF_0000083 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000083">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000076"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000083">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000076"/>
         <rdfs:comment>&quot;the customer or service seeker presents a problem to the representative or agent of the organization and requests a solution. The agent may need to probe the user�s situation with a series of diagnostic questions in order to determine the likely cause of the problem and the appropriate solution. The agent may then talk the user through a set of instructions for solving the problem. Troubleshooting can therefore be supported by combining the open request  and extended telling patterns.&quot; (Moore and Arar, 2019). Initiated by the user</rdfs:comment>
         <rdfs:label>troubleshooting user-initiated</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000084 -->
+    <!-- http://w3id.org/nco#NCF_0000084 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000084">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000077"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000084">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000077"/>
         <rdfs:label>inquiry by agent extended answer</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000085 -->
+    <!-- http://w3id.org/nco#NCF_0000085 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000085">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000077"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000085">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000077"/>
         <rdfs:label>inquiry by agent completion check</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000086 -->
+    <!-- http://w3id.org/nco#NCF_0000086 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000086">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000077"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000086">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000077"/>
         <rdfs:label>inquiry by agent hearing disconfirmed</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000087 -->
+    <!-- http://w3id.org/nco#NCF_0000087 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000087">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000077"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000087">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000077"/>
         <rdfs:label>inquiry by agent hearing confirmed</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000088 -->
+    <!-- http://w3id.org/nco#NCF_0000088 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000088">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000077"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000088">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000077"/>
         <rdfs:label>inquiry by agent open</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000089 -->
+    <!-- http://w3id.org/nco#NCF_0000089 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000089">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000079"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000089">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000079"/>
         <rdfs:label>inquiry by user confirmation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000090 -->
+    <!-- http://w3id.org/nco#NCF_0000090 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000090">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000079"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000090">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000079"/>
         <rdfs:label>inquiry by user disconfirmation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000091 -->
+    <!-- http://w3id.org/nco#NCF_0000091 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000091">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000079"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000091">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000079"/>
         <rdfs:label>inquiry by user repairs</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000092 -->
+    <!-- http://w3id.org/nco#NCF_0000092 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000092">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000080"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000092">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000080"/>
         <rdfs:label>open request nonverbal</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000093 -->
+    <!-- http://w3id.org/nco#NCF_0000093 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000093">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000080"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000093">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000080"/>
         <rdfs:label>open request continuer</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000094 -->
+    <!-- http://w3id.org/nco#NCF_0000094 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000094">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000080"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000094">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000080"/>
         <rdfs:label>open request screening</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000095 -->
+    <!-- http://w3id.org/nco#NCF_0000095 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000095">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000080"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000095">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000080"/>
         <rdfs:label>open request agent detail request</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000096 -->
+    <!-- http://w3id.org/nco#NCF_0000096 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000096">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000080"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000096">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000080"/>
         <rdfs:label>open request user detail request</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000097 -->
+    <!-- http://w3id.org/nco#NCF_0000097 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000097">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000080"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000097">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000080"/>
         <rdfs:label>open request summary</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000098 -->
+    <!-- http://w3id.org/nco#NCF_0000098 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000098">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000080"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000098">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000080"/>
         <rdfs:label>warrant request and refusal</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000099 -->
+    <!-- http://w3id.org/nco#NCF_0000099 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000099">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000080"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000099">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000080"/>
         <rdfs:label>open request summary with artifacts</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000100 -->
+    <!-- http://w3id.org/nco#NCF_0000100 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000100">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000080"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000100">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000080"/>
         <rdfs:label>open request incremental</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000101 -->
+    <!-- http://w3id.org/nco#NCF_0000101 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000101">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000080"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000101">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000080"/>
         <rdfs:label>open request series</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000102 -->
+    <!-- http://w3id.org/nco#NCF_0000102 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000102">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000080"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000102">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000080"/>
         <rdfs:label>open request repairs</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000103 -->
+    <!-- http://w3id.org/nco#NCF_0000103 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000103">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000081"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000103">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000081"/>
         <rdfs:label>extended telling abort</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000104 -->
+    <!-- http://w3id.org/nco#NCF_0000104 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000104">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000081"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000104">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000081"/>
         <rdfs:label>extended telling with repair</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000105 -->
+    <!-- http://w3id.org/nco#NCF_0000105 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000105">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000082"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000105">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000082"/>
         <rdfs:label>quiz incorrect</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000106 -->
+    <!-- http://w3id.org/nco#NCF_0000106 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000106">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000082"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000106">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000082"/>
         <rdfs:label>quiz repairs</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000107 -->
+    <!-- http://w3id.org/nco#NCF_0000107 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000107">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000082"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000107">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000082"/>
         <rdfs:label>quiz user-initiated</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000108 -->
+    <!-- http://w3id.org/nco#NCF_0000108 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000108">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000082"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000108">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000082"/>
         <rdfs:label>quiz agent-initiated</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000109 -->
+    <!-- http://w3id.org/nco#NCF_0000109 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000109">
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000109">
         <rdfs:comment>A theortical framework for natural conversational design; Core application ontology concept framing natural language framework</rdfs:comment>
         <rdfs:label>natural conversation model</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000110 -->
+    <!-- http://w3id.org/nco#NCF_0000110 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000110">
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000110">
         <rdfs:comment>&quot;conversational actions for getting around the conversation space that are easy for users to remember&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>conversation navigation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000111 -->
+    <!-- http://w3id.org/nco#NCF_0000111 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000111">
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000111">
         <rdfs:comment>expandable sequences, like an accordion [Moore et al. 2016, Moore 2018]. Compact sequences are common, but each sequence can be expanded by either party as needed.</rdfs:comment>
         <rdfs:label>interaction model</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000112 -->
+    <!-- http://w3id.org/nco#NCF_0000112 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000112">
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000112">
         <rdfs:comment>Style and presentation of the content of an utterance</rdfs:comment>
         <rdfs:label>content format</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000113 -->
+    <!-- http://w3id.org/nco#NCF_0000113 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000113">
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000113">
         <rdfs:comment>&quot;formal structures or patterns of human talk-in-interaction&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>pattern language</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000114 -->
+    <!-- http://w3id.org/nco#NCF_0000114 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000114">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000110"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000114">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000110"/>
         <rdfs:label>repeat request</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000115 -->
+    <!-- http://w3id.org/nco#NCF_0000115 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000115">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000110"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000115">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000110"/>
         <rdfs:comment>A type of conversation navigation that &quot;to close their interaction with the system. This is similar to closing an application or logging out of a system&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>conversation closing</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000116 -->
+    <!-- http://w3id.org/nco#NCF_0000116 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000116">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000110"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000116">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000110"/>
         <rdfs:label>sequence abort</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000117 -->
+    <!-- http://w3id.org/nco#NCF_0000117 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000117">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000110"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000117">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000110"/>
         <rdfs:comment>A type of conversation navigation that to assess by way of conversation to find out the capabilities of the agent.</rdfs:comment>
         <rdfs:label>capability check</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000118 -->
+    <!-- http://w3id.org/nco#NCF_0000118 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000118">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000110"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000118">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000110"/>
         <rdfs:label>sequence closer</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000119 -->
+    <!-- http://w3id.org/nco#NCF_0000119 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000119">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000112"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000119">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000112"/>
         <rdfs:comment>An utterance expressed in one sentence or smaller unit</rdfs:comment>
         <rdfs:label>short content format</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000120 -->
+    <!-- http://w3id.org/nco#NCF_0000120 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000120">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000112"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000120">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000112"/>
         <rdfs:comment>An autterance presented in a multiple sentence utterance or document-like format</rdfs:comment>
         <rdfs:label>long content format</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000121 -->
+    <!-- http://w3id.org/nco#NCF_0000121 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000121">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000136"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000121">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000136"/>
         <rdfs:label>story telling</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000122 -->
+    <!-- http://w3id.org/nco#NCF_0000122 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000122">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000136"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000122">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000136"/>
         <rdfs:comment>A sequence involving an FPP and SPP. &quot;An adjacency pair is composed of two utterances by two speakers, one after the other. The speaking of the first utterance (the first-pair part, or the first turn) provokes a responding utterance (the second-pair part, or the second turn)&quot; (Wikipedia)</rdfs:comment>
         <rdfs:label>adjacency pair</rdfs:label>
         <core:altLabel>base sequence; action pair</core:altLabel>
@@ -1167,10 +1167,10 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000123 -->
+    <!-- http://w3id.org/nco#NCF_0000123 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000123">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000130"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000123">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000130"/>
         <rdfs:comment>A type of TCU that initaties an adjacency pair</rdfs:comment>
         <rdfs:label>first pair part</rdfs:label>
         <core:altLabel>fpp</core:altLabel>
@@ -1178,10 +1178,10 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000124 -->
+    <!-- http://w3id.org/nco#NCF_0000124 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000124">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000130"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000124">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000130"/>
         <rdfs:comment>A type of TCU that closes an adjacency pair</rdfs:comment>
         <rdfs:label>second pair part</rdfs:label>
         <core:altLabel>spp</core:altLabel>
@@ -1189,182 +1189,182 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000125 -->
+    <!-- http://w3id.org/nco#NCF_0000125 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000125">
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000125">
         <rdfs:comment>Smallest unit of speech</rdfs:comment>
         <rdfs:label>utterance</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000126 -->
+    <!-- http://w3id.org/nco#NCF_0000126 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000126">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000123"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000126">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000123"/>
         <rdfs:label>action type</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000127 -->
+    <!-- http://w3id.org/nco#NCF_0000127 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000127">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000123"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000127">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000123"/>
         <rdfs:label>design type</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000128 -->
+    <!-- http://w3id.org/nco#NCF_0000128 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000128">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000124"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000128">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000124"/>
         <rdfs:label>preferred response</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000129 -->
+    <!-- http://w3id.org/nco#NCF_0000129 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000129">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000124"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000129">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000124"/>
         <rdfs:label>dispreferred response</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000130 -->
+    <!-- http://w3id.org/nco#NCF_0000130 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000130">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000125"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000130">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000125"/>
         <rdfs:comment>&quot;fundamental segment of speech in a conversation...pieces of conversation which may comprise an entire speaking turn by a speaker. A turn is created through certain forms or units that listeners can recognize and count on, called turn construction units (TCUs), and speakers and listeners will know that such forms can be a word or a clause, and use that knowledge to predict when a speaker is finished so that others can speak, to avoid or minimize both overlap and silence.&quot; (Wikipedia)</rdfs:comment>
         <rdfs:label>turn conversational unit</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000131 -->
+    <!-- http://w3id.org/nco#NCF_0000131 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000131">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000125"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000131">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000125"/>
         <rdfs:comment>something expressed by an individual that not only presents information but performs an action as well (Wikipedia)</rdfs:comment>
         <rdfs:label>speech acts</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000132 -->
+    <!-- http://w3id.org/nco#NCF_0000132 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000132">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000130"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000132">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000130"/>
         <rdfs:comment>basic element of language that carries meaning, can be used on its own, and is uninterruptible (Wikipedia)</rdfs:comment>
         <rdfs:label>words</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000133 -->
+    <!-- http://w3id.org/nco#NCF_0000133 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000133">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000130"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000133">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000130"/>
         <rdfs:comment>&quot;group of words or singular word acting as a grammatical unit.&quot; (Wikipedia)</rdfs:comment>
         <rdfs:label>phrases</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000134 -->
+    <!-- http://w3id.org/nco#NCF_0000134 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000134">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000130"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000134">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000130"/>
         <rdfs:comment>constituent or phrase that comprises a semantic predicand (expressed or not) and a semantic predicate. A typical clause consists of a subject and a syntactic predicate, the latter typically a verb phrase composed of a verb with or without any objects and other modifiers. (Wikipedia)</rdfs:comment>
         <rdfs:label>clauses</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000135 -->
+    <!-- http://w3id.org/nco#NCF_0000135 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000135">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000130"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000135">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000130"/>
         <rdfs:comment>string of words that expresses a complete thought, or as a unit consisting of a subject and predicate (Wikipedia)</rdfs:comment>
         <rdfs:label>sentence</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000136 -->
+    <!-- http://w3id.org/nco#NCF_0000136 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000136">
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000136">
         <rdfs:comment>&quot;Sequences are general patterns that, like tools or devices, can be used and reused in all kinds of different situations and settings, for all kinds of different purposes. &quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>sequence</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000137 -->
+    <!-- http://w3id.org/nco#NCF_0000137 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000137">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000136"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000137">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000136"/>
         <rdfs:comment>sequence of utterances that elaborates on the base interaction for additional information. Helps in mutual understanding between parties.</rdfs:comment>
         <rdfs:label>sequence expansion</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000138 -->
+    <!-- http://w3id.org/nco#NCF_0000138 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000138">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000137"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000138">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000137"/>
         <rdfs:comment>a type of sequence expansion that occurs after the base sequence interaction</rdfs:comment>
         <rdfs:label>post expansion</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000139 -->
+    <!-- http://w3id.org/nco#NCF_0000139 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000139">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000137"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000139">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000137"/>
         <rdfs:comment>Conversational sequence with the the goal of rectifying misunderstanding or miscommunication during a conversation. &quot;Repairs consist of a redoing of all or part of a previous utterance, either by the speaker or a recipient, where that utterance poses difficulty in speaking, hearing, or understanding and thereby prevents the conversation from moving forward&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>repair</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000140 -->
+    <!-- http://w3id.org/nco#NCF_0000140 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000140">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000137"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000140">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000137"/>
         <rdfs:label>elicit</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000141 -->
+    <!-- http://w3id.org/nco#NCF_0000141 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000141">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000137"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000141">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000137"/>
         <rdfs:comment>an insertion sequence emerged out of the base adjacency pair (between the FPP and SPP).</rdfs:comment>
         <rdfs:label>insert expansion</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000142 -->
+    <!-- http://w3id.org/nco#NCF_0000142 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000142">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000137"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000142">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000137"/>
         <rdfs:label>repeat</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000143 -->
+    <!-- http://w3id.org/nco#NCF_0000143 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000143">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000137"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000143">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000137"/>
         <rdfs:comment>a type of sequence expansion that occurs before the base sequence interaction, specifically before the FPP. They consist of their own sequence pairs</rdfs:comment>
         <rdfs:label>pre-expansion</rdfs:label>
         <core:altLabel>pre sequences</core:altLabel>
@@ -1372,89 +1372,89 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000144 -->
+    <!-- http://w3id.org/nco#NCF_0000144 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000144">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000137"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000144">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000137"/>
         <rdfs:label>screen</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000145 -->
+    <!-- http://w3id.org/nco#NCF_0000145 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000145">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000138"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000145">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000138"/>
         <rdfs:comment>Occurs after the SPP of the base pair, and an extension of SPP where the SPP is the FPP of another SPP, essentially stretching the base pair.</rdfs:comment>
         <rdfs:label>non-minimal post expansion</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000146 -->
+    <!-- http://w3id.org/nco#NCF_0000146 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000146">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000138"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000146">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000138"/>
         <rdfs:comment>An additional turn sequence after the base sequence pair. Designed not to emphasize the base sequence, and typically a closing sequence.</rdfs:comment>
         <rdfs:label>minimal post expansion</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000147 -->
+    <!-- http://w3id.org/nco#NCF_0000147 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000147">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000141"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000147">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000141"/>
         <rdfs:comment>an insertion sequence emerging after the FPP</rdfs:comment>
         <rdfs:label>post first pair part insert expansion</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000148 -->
+    <!-- http://w3id.org/nco#NCF_0000148 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000148">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000141"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000148">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000141"/>
         <rdfs:comment>an insertion sequence emerging before the SPP</rdfs:comment>
         <rdfs:label>pre second pair part insert expansion</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000149 -->
+    <!-- http://w3id.org/nco#NCF_0000149 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000149">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000143"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000149">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000143"/>
         <rdfs:comment>&quot;Pre-requests... checks on the availability of the time to be asked for&quot; (Sidell, 2015)</rdfs:comment>
         <rdfs:label>pre request</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000150 -->
+    <!-- http://w3id.org/nco#NCF_0000150 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000150">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000143"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000150">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000143"/>
         <rdfs:comment>Pre-invitation often check on the availability of the intended invitee (Sidnell, 2015)</rdfs:comment>
         <rdfs:label>pre-invitation</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000151 -->
+    <!-- http://w3id.org/nco#NCF_0000151 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000151">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000143"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000151">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000143"/>
         <rdfs:comment>Sometimes prefaces announcements or stories. &quot;[T]ypicall check on a condition for the successful accomplishment of the base first pair part... often takes the form of question about what the recipient knows&quot; (Sidnell, 2015)</rdfs:comment>
         <rdfs:label>pre-announcement</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000152 -->
+    <!-- http://w3id.org/nco#NCF_0000152 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000152">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000147"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000152">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000147"/>
         <rdfs:comment>&quot;A next turn repair initiator is an utterance, used in the turn after a repairable item, that prompts for a third turn repair in the next turn.&quot; https://glossary.sil.org/term/next-turn-repair-initiator</rdfs:comment>
         <rdfs:label>next turn repair initiator</rdfs:label>
         <core:altLabel>ntri</core:altLabel>
@@ -1462,50 +1462,50 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000153 -->
+    <!-- http://w3id.org/nco#NCF_0000153 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000153">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000131"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000153">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000131"/>
         <rdfs:comment>&quot;constative is the expression of a belief, together with the expression of an intention that the hearer form (or continue to hold) a like belief.&quot; (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>constatives</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000154 -->
+    <!-- http://w3id.org/nco#NCF_0000154 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000154">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000131"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000154">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000131"/>
         <rdfs:comment>&quot;They express, perfunctorily if not genuinely, certain feelings toward the hearer. These feelings and their expression are appropriate to particular sorts of occasions...Because acknowledgments are expected on particular occasions, they are often issued not so much to express a genuine feeling as to satisfy the social expectation that such a feeling be expressed.&quot; (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>acknowledgements</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000155 -->
+    <!-- http://w3id.org/nco#NCF_0000155 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000155">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000131"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000155">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000131"/>
         <rdfs:comment>Commissives are acts of obligating oneself or of proposing to obligate oneself to do something specified in the propositional content, which may also specify conditions under which the deed is to be done or does not have to be done. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>commissives</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000156 -->
+    <!-- http://w3id.org/nco#NCF_0000156 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000156">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000131"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000156">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000131"/>
         <rdfs:comment>&quot;Directives express the speaker&apos;s attitude toward some prospective action by the hearer.&quot; (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>directives</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000157 -->
+    <!-- http://w3id.org/nco#NCF_0000157 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000157">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000157">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:comment>in uttering e, S asserts that P if S expresses: i. the belief that P, and ii. the intention that H believe that P. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>affirming</rdfs:label>
         <core:altLabel>assert; allege; aver; avow; claim; declare; deny; incate; maintain; propound; say; state; submit</core:altLabel>
@@ -1513,28 +1513,28 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000158 -->
+    <!-- http://w3id.org/nco#NCF_0000158 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000158">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000158">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:label>alleging</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000159 -->
+    <!-- http://w3id.org/nco#NCF_0000159 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000159">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000159">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:label>announcing</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000160 -->
+    <!-- http://w3id.org/nco#NCF_0000160 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000160">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000160">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:comment>In uttering e, S responds that P if S expresses: i. the belief that P, which H has inquired about, and ii. the intention that H believe that P. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>answering</rdfs:label>
         <core:altLabel>answer; reply; respond; retort</core:altLabel>
@@ -1542,10 +1542,10 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000161 -->
+    <!-- http://w3id.org/nco#NCF_0000161 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000161">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000161">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:comment>In uttering e, S ascribes F to 0 if S expresses: i. the belief that F applies to 0, and ii. the intention that H believe that F applies to o. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>attributing</rdfs:label>
         <core:altLabel>ascribe; attribute; predicate</core:altLabel>
@@ -1553,19 +1553,19 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000162 -->
+    <!-- http://w3id.org/nco#NCF_0000162 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000162">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000162">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:label>claiming</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000163 -->
+    <!-- http://w3id.org/nco#NCF_0000163 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000163">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000163">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:comment>In uttering e, S describes 0 as F if S expresses: i. the belief that 0 is F, and ii. the intention that H believe that 0 is F. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>classifying</rdfs:label>
         <core:altLabel>appraise; assess; call; categorize; characterize; classify; date; describe; diagnosie; evaluate; grade; identify; portray; rank</core:altLabel>
@@ -1573,10 +1573,10 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000164 -->
+    <!-- http://w3id.org/nco#NCF_0000164 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000164">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000164">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:comment>In uttering e, S assents to the claim that P if S expresses: i. the belief that P, as claimed by H (or as otherwise under discussion), and ii. the intention (perhaps already fulfilled) that H believe that P. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>concurring</rdfs:label>
         <core:altLabel>accept; agree; assent; concur</core:altLabel>
@@ -1584,10 +1584,10 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000165 -->
+    <!-- http://w3id.org/nco#NCF_0000165 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000165">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000165">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:comment>In uttering e, S confirms (the claim) that P if S expresses: i. the belief that P, based on some truth-seeking procedure, and ii. the intention that H believe that P because S has support for P. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>confirming</rdfs:label>
         <core:altLabel>appraise; assess; bear witness; certify; conclude; confirm; corroborate; diagnose; find; judge; substantiate; testify; validate; verify; vouch for</core:altLabel>
@@ -1595,10 +1595,10 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000166 -->
+    <!-- http://w3id.org/nco#NCF_0000166 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000166">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000166">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:comment>In uttering e, S suggests that P if S expresses: i. the belief that there is reason, but not sufficient reason, to believe that P, and ii. the intention that H believe that there is reason, but not sufficient reason, to believe that P. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>conject uring</rdfs:label>
         <core:altLabel>conjecture; guess; hypothesize; speculate; suggest</core:altLabel>
@@ -1606,19 +1606,19 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000167 -->
+    <!-- http://w3id.org/nco#NCF_0000167 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000167">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000167">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:label>denying</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000168 -->
+    <!-- http://w3id.org/nco#NCF_0000168 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000168">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000168">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:comment>In uttering e, S dissents from the claim that P if S expresses: i. the disbelief that P, contrary to what was claimed by H (or was otherwise under discussion), and ii. the intention that H disbelieve that P (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>diagreeing</rdfs:label>
         <core:altLabel>differ; disagree; dissent; reject</core:altLabel>
@@ -1626,19 +1626,19 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000169 -->
+    <!-- http://w3id.org/nco#NCF_0000169 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000169">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000169">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:label>disclosing</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000170 -->
+    <!-- http://w3id.org/nco#NCF_0000170 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000170">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000170">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:comment>In uttering e, S disputes the claim that P if S expresses: i. the belief that there is reason not to believe that P, contrary to what was claimed by H (or was otherwise under discussion), and ii. the intention that H believe that there is reason not to believe that P (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>disputing</rdfs:label>
         <core:altLabel>demur; dispute; object; protest; question</core:altLabel>
@@ -1646,19 +1646,19 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000171 -->
+    <!-- http://w3id.org/nco#NCF_0000171 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000171">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000171">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:label>identifying</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000172 -->
+    <!-- http://w3id.org/nco#NCF_0000172 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000172">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000172">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:comment>In uttering e, S informs H that P if S expresses: i. the belief that P, and ii. the intention that H form the belief that P. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>informing</rdfs:label>
         <core:altLabel>advise; annouce; appraise; disclose; inform; insist; notify; point out; report; reveal; tell; testify</core:altLabel>
@@ -1666,19 +1666,19 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000173 -->
+    <!-- http://w3id.org/nco#NCF_0000173 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000173">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000173">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:label>insisting</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000174 -->
+    <!-- http://w3id.org/nco#NCF_0000174 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000174">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000174">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:comment>In uttering e, S predicts that P if S expresses: i. the belief that it will be the case that P, and ii. the intention that H believe that it will be the case that P. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>predicting</rdfs:label>
         <core:altLabel>forecast; prophesy</core:altLabel>
@@ -1686,19 +1686,19 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000175 -->
+    <!-- http://w3id.org/nco#NCF_0000175 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000175">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000175">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:label>ranking</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000176 -->
+    <!-- http://w3id.org/nco#NCF_0000176 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000176">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000176">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:comment>In uttering e, S retrodicts that P if S expresses: i. the belief that it was the case that P, and ii. the intention that H believe that it was the case that P. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>reporting</rdfs:label>
         <core:altLabel>recount; report; retrodictives</core:altLabel>
@@ -1706,19 +1706,19 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000177 -->
+    <!-- http://w3id.org/nco#NCF_0000177 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000177">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000177">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:label>stating</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000178 -->
+    <!-- http://w3id.org/nco#NCF_0000178 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000178">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000153"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000178">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000153"/>
         <rdfs:comment>In uttering e, S supposes that P if S expresses: i. the belief that it is worth considering the consequences of P, and ii. the intention that H believe that it is worth considering the consequences of P. (Back and Harnish, 1979)</rdfs:comment>
         <rdfs:label>stipulating</rdfs:label>
         <core:altLabel>assume; hypothesize; posturlate; stipulate; suppose; theorize</core:altLabel>
@@ -1726,20 +1726,20 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000179 -->
+    <!-- http://w3id.org/nco#NCF_0000179 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000179">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000154"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000179">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000154"/>
         <rdfs:comment>In uttering e, S apologizes to H for D if S expresses: i. regret for having done D to H, and ii. the intention that H believe that S regrets having done D to H, or i. the intention that his utterance satisfy the social expectation that one express regret for having done something regrettable like D, and ii. the intention that H take S&apos;s utterance as satisfying this expectation. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>apologizing</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000180 -->
+    <!-- http://w3id.org/nco#NCF_0000180 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000180">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000154"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000180">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000154"/>
         <rdfs:comment>In uttering e, S condoles H for (misfortune) D if S expresses: i. sympathy with H&apos;s having (or suffering) D, and ii. the intention that H believe that S sympathizes with H&apos;s having D, or i. the intention that his utterance satisfy the social expectation that one express sympathy for misfortunes like D, and ii. the intention that H take S&apos;s utterance as satisfying this expectation. (Bach and Harish, 1979)</rdfs:comment>
         <rdfs:label>condoling</rdfs:label>
         <core:altLabel>commiserate; condole</core:altLabel>
@@ -1747,10 +1747,10 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000181 -->
+    <!-- http://w3id.org/nco#NCF_0000181 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000181">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000154"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000181">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000154"/>
         <rdfs:comment>In uttering e, S congratulates H for D if S expresses: i. gladness for H&apos;s having D(-ed), and ii. the intention that H believe that S is glad that H has D(-ed), or i. the intention that his utterance satisfy the social expectation that one express gladness for good fortunes like D( -ing), and ii. the intention that H take S&apos;s utterance as satisfying this expectation (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>congratulating</rdfs:label>
         <core:altLabel>compliment; congratulate; felicitate</core:altLabel>
@@ -1758,70 +1758,70 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000182 -->
+    <!-- http://w3id.org/nco#NCF_0000182 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000182">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000154"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000182">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000154"/>
         <rdfs:comment>In uttering e, S greets H if S expresses: i. pleasure at seeing (or meeting) H, and ii. the intention that H believe that S is pleased to see (or meet) H, or i. the intention that his utterance satisfy the social expectation that one express pleasure at seeing (or meeting) someone, and ii. the intention that H take S&apos;s utterance as satisfying this expectation. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>greeting</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000183 -->
+    <!-- http://w3id.org/nco#NCF_0000183 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000183">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000154"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000183">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000154"/>
         <rdfs:comment>In uttering e, S thanks H for D if S expresses: i. gratitude to H for D, and ii. the intention that H believe that S is grateful to H for D, or i. the intention that his utterance satisfy the social expectation that one express gratitude at being benefited, and ii. the intention that H take S&apos; s utterance as satisfying this expectation. &quot;No thanks&quot;: S thanks H for offering D and rejects the offer (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>thanking</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000184 -->
+    <!-- http://w3id.org/nco#NCF_0000184 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000184">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000154"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000184">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000154"/>
         <rdfs:comment>In uttering e, S accepts H&apos;s acknowledgment if S expresses: i. appreciation for H&apos;s . acknowledgment, and ii. the intention that H believe that S appreciates H&apos;s acknowledgment, or i. the intention that his utterance satisfy the social expectation that one express appreciation of an acknowledgment, and ii. the intention that H take S&apos;s utterance as satisfying this expectation. &quot;You&apos;re welcome&quot;: S accepts H&apos;s thanks (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>accepting (acknowledging an acknowledgement)</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000185 -->
+    <!-- http://w3id.org/nco#NCF_0000185 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000185">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000155"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000185">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000155"/>
         <rdfs:comment>contract: Sand H make mutually conditional promises; fulfillment of each is conditional on the fulfillment of the other (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>agreeing</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000186 -->
+    <!-- http://w3id.org/nco#NCF_0000186 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000186">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000155"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000186">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000155"/>
         <rdfs:comment>guarantee that: S affirms (constative) the quality of something, x, and promises to make repairs or restitution if x is relevantly defective. guarantee x: S promises to make repairs or restitution if x is defective in some relevant respect. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>guaranteeing</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000187 -->
+    <!-- http://w3id.org/nco#NCF_0000187 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000187">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000155"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000187">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000155"/>
         <rdfs:comment>S requests (directive) H&apos;s presence and promises acceptance of his presence. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>inviting</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000188 -->
+    <!-- http://w3id.org/nco#NCF_0000188 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000188">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000155"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000188">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000155"/>
         <rdfs:comment>In uttering e, S offers A to H if S expresses: i. the belief that S&apos;s utterance obligates him to A on condition that H indicates he wants S to A, ii. the intention to A on condition that H indicates he wants S to A, and iii. the intention that H believe that S&apos;s utterance obligates S to A and that S intends to A, on condition that H indicates he wants S to A. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>offering</rdfs:label>
         <core:altLabel>offer; propose</core:altLabel>
@@ -1829,10 +1829,10 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000189 -->
+    <!-- http://w3id.org/nco#NCF_0000189 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000189">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000155"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000189">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000155"/>
         <rdfs:comment>In uttering e, S promises H to A if S expresses: i. the belief that his utterance obligates him to A, ii. the intention to A, and iii. the intention that H believe that S&apos;s utterance obligates S to A and that S intends to A. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>promising</rdfs:label>
         <core:altLabel>promise; swear; vow</core:altLabel>
@@ -1840,30 +1840,30 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000190 -->
+    <!-- http://w3id.org/nco#NCF_0000190 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000190">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000155"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000190">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000155"/>
         <rdfs:comment>swear that: S asserts (constative) that P and promises that he is telling the truth. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>swearing</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000191 -->
+    <!-- http://w3id.org/nco#NCF_0000191 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000191">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000155"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000191">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000155"/>
         <rdfs:comment>S offers his services. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>volunteering</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000192 -->
+    <!-- http://w3id.org/nco#NCF_0000192 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000192">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000156"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000192">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000156"/>
         <rdfs:comment>In uttering e, S advises H to A if S expresses: i. the belief that there is (sufficient) reason for H to A, and ii. the intention thatH take S&apos;s belief as (sufficient) reason for him to A. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>advising</rdfs:label>
         <core:altLabel>admonish; advise; caution; counsel; propose; recommend; suggest; urge; warn</core:altLabel>
@@ -1871,19 +1871,19 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000193 -->
+    <!-- http://w3id.org/nco#NCF_0000193 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000193">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000156"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000193">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000156"/>
         <rdfs:label>admonishing</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000194 -->
+    <!-- http://w3id.org/nco#NCF_0000194 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000194">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000156"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000194">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000156"/>
         <rdfs:comment>In uttering e, S questions H as to whether or not P if S expresses: i. the desire that H tell S whether or not P, and ii. the intention that H tell S whether or not P because of S&apos;s desire. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>asking</rdfs:label>
         <core:altLabel>ask; inquire; interrogate; query; question; quiz</core:altLabel>
@@ -1891,10 +1891,10 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000195 -->
+    <!-- http://w3id.org/nco#NCF_0000195 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000195">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000156"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000195">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000156"/>
         <rdfs:comment>In uttering e, S requests H to A if S expresses: i. the desire that H do A, and ii. the intention that H do A because (at least partly) of S&apos;s desire. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>begging</rdfs:label>
         <core:altLabel>ask; beg; beseech; implore; insiste; invite; petition; plead; pray; request; solicit; summon; supplicate; tell; urge</core:altLabel>
@@ -1902,28 +1902,28 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000196 -->
+    <!-- http://w3id.org/nco#NCF_0000196 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000196">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000156"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000196">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000156"/>
         <rdfs:label>dismissing</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000197 -->
+    <!-- http://w3id.org/nco#NCF_0000197 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000197">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000156"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000197">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000156"/>
         <rdfs:label>execusing</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000198 -->
+    <!-- http://w3id.org/nco#NCF_0000198 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000198">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000156"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000198">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000156"/>
         <rdfs:comment>In uttering e, S prohibits H from A-ing if S expresses: i. the belief that his utterance, in virtue of his authority over H, constitutes sufficient reason for H not to A, and ii. the intention that because of S&apos;s utterance H not do A. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>forbidding</rdfs:label>
         <core:altLabel>enjoin; forbid; prohibit; proscribe; restrict</core:altLabel>
@@ -1931,19 +1931,19 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000199 -->
+    <!-- http://w3id.org/nco#NCF_0000199 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000199">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000156"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000199">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000156"/>
         <rdfs:label>instructing</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000200 -->
+    <!-- http://w3id.org/nco#NCF_0000200 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000200">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000156"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000200">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000156"/>
         <rdfs:comment>In uttering e, S requires H to A if S expresses: i. the belief that his utterance, in virtue of his authority over H, constitutes sufficient reason for H to A, and ii. the intention that H do A because of S&apos;s utterance. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>ordering</rdfs:label>
         <core:altLabel>bid; charge; command; demand; dictate; direct; enjoin; instruct; order; prescribe; require</core:altLabel>
@@ -1951,10 +1951,10 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000201 -->
+    <!-- http://w3id.org/nco#NCF_0000201 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000201">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000156"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000201">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000156"/>
         <rdfs:comment>In uttering e, S permits H to A if S expresses: i. the belief that his utterance, in virtue of his authority over H, entitles H to A, and ii. the intention that H believe that S&apos;s utterance entitles him to A. (Bach and Harnish, 1979)</rdfs:comment>
         <rdfs:label>permitting</rdfs:label>
         <core:altLabel>agree to; allow; authorize; bless; consent to; dismiss; execuse; exempt; forgive; grant; license; pardon; release; sanction</core:altLabel>
@@ -1962,54 +1962,54 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000202 -->
+    <!-- http://w3id.org/nco#NCF_0000202 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000202">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000156"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000202">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000156"/>
         <rdfs:label>requesting</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000203 -->
+    <!-- http://w3id.org/nco#NCF_0000203 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000203">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000156"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000203">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000156"/>
         <rdfs:label>requiring</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000204 -->
+    <!-- http://w3id.org/nco#NCF_0000204 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000204">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000156"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000204">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000156"/>
         <rdfs:label>suggesting</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000205 -->
+    <!-- http://w3id.org/nco#NCF_0000205 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000205">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000156"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000205">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000156"/>
         <rdfs:label>urging</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000206 -->
+    <!-- http://w3id.org/nco#NCF_0000206 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000206">
-        <rdfs:subClassOf rdf:resource="http://example.org/phido_v2.owl#NCF_0000156"/>
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000206">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000156"/>
         <rdfs:label>warning</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000207 -->
+    <!-- http://w3id.org/nco#NCF_0000207 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000207">
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000207">
         <rdfs:comment>An artifical autonomous system</rdfs:comment>
         <rdfs:label>agent</rdfs:label>
         <core:altLabel>software agent</core:altLabel>
@@ -2017,9 +2017,9 @@
     
 
 
-    <!-- http://example.org/phido_v2.owl#NCF_0000208 -->
+    <!-- http://w3id.org/nco#NCF_0000208 -->
 
-    <owl:Class rdf:about="http://example.org/phido_v2.owl#NCF_0000208">
+    <owl:Class rdf:about="http://w3id.org/nco#NCF_0000208">
         <rdfs:comment>A human participant in an interaction (e.g.conversation) with a machine</rdfs:comment>
         <rdfs:label>user</rdfs:label>
         <core:altLabel>human</core:altLabel>
