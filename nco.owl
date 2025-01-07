@@ -15,9 +15,9 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://w3id.org/nco">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2022-11-07/iao.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omrse/releases/2024-11-25/omrse.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2024-04-24/ro.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/ProfTuan/NCO/refs/heads/main/imports/iao-extracted.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/ProfTuan/NCO/refs/heads/main/imports/omrse-extracted.owl"/>
+        <owl:imports rdf:resource="https://raw.githubusercontent.com/ProfTuan/NCO/refs/heads/main/imports/ro-extracted.owl"/>
         <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <terms:creator>Tuan Amith, Xubing Hao, and Licong Cui</terms:creator>
         <terms:description>Natural Conversation Ontology (NCO) is based on knowledge derived from the Natural Conversation Framework (Moore and Arar), as well as, the amalgamation of theories of conversation analysis.</terms:description>
