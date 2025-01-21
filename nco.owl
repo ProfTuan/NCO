@@ -1235,6 +1235,20 @@
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000122">
         <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000136"/>
         <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000123"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000124"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000207"/>
@@ -1417,7 +1431,7 @@
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00002068"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002532"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002533"/>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
