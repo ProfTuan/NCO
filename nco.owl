@@ -15,10 +15,10 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://w3id.org/nco">
+        <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/ProfTuan/NCO/refs/heads/main/imports/iao-extracted.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/ProfTuan/NCO/refs/heads/main/imports/omrse-extracted.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/ProfTuan/NCO/refs/heads/main/imports/ro-extracted.owl"/>
-        <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <terms:creator>Tuan Amith, Xubing Hao, and Licong Cui</terms:creator>
         <terms:description>Natural Conversation Ontology (NCO) is based on knowledge derived from the Natural Conversation Framework (Moore and Arar), as well as, the amalgamation of theories of conversation analysis.</terms:description>
         <terms:title>Natural Conversation Ontology</terms:title>
@@ -1038,6 +1038,30 @@
     <!-- http://w3id.org/nco#NCF_0000109 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000109">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>A theortical framework for natural conversational design; Core application ontology concept framing natural language framework</rdfs:comment>
         <rdfs:label>natural conversation model</rdfs:label>
     </owl:Class>
@@ -1047,6 +1071,12 @@
     <!-- http://w3id.org/nco#NCF_0000110 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000110">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>&quot;conversational actions for getting around the conversation space that are easy for users to remember&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>conversation navigation</rdfs:label>
     </owl:Class>
@@ -1056,6 +1086,12 @@
     <!-- http://w3id.org/nco#NCF_0000111 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000111">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>expandable sequences, like an accordion [Moore et al. 2016, Moore 2018]. Compact sequences are common, but each sequence can be expanded by either party as needed.</rdfs:comment>
         <rdfs:label>interaction model</rdfs:label>
     </owl:Class>
@@ -1065,6 +1101,18 @@
     <!-- http://w3id.org/nco#NCF_0000112 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000112">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0010002"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000125"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>Style and presentation of the content of an utterance</rdfs:comment>
         <rdfs:label>content format</rdfs:label>
     </owl:Class>
@@ -1074,6 +1122,12 @@
     <!-- http://w3id.org/nco#NCF_0000113 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000113">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>&quot;formal structures or patterns of human talk-in-interaction&quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>pattern language</rdfs:label>
     </owl:Class>
@@ -1131,6 +1185,12 @@
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000119">
         <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000112"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0010002"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>An utterance expressed in one sentence or smaller unit</rdfs:comment>
         <rdfs:label>short content format</rdfs:label>
     </owl:Class>
@@ -1141,6 +1201,12 @@
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000120">
         <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000112"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0010002"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000121"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>An autterance presented in a multiple sentence utterance or document-like format</rdfs:comment>
         <rdfs:label>long content format</rdfs:label>
     </owl:Class>
@@ -1160,6 +1226,18 @@
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000122">
         <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000136"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000207"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000208"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>A sequence involving an FPP and SPP. &quot;An adjacency pair is composed of two utterances by two speakers, one after the other. The speaking of the first utterance (the first-pair part, or the first turn) provokes a responding utterance (the second-pair part, or the second turn)&quot; (Wikipedia)</rdfs:comment>
         <rdfs:label>adjacency pair</rdfs:label>
         <core:altLabel>base sequence; action pair</core:altLabel>
@@ -1238,6 +1316,30 @@
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000130">
         <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000125"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000132"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000133"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000134"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000135"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>&quot;fundamental segment of speech in a conversation...pieces of conversation which may comprise an entire speaking turn by a speaker. A turn is created through certain forms or units that listeners can recognize and count on, called turn construction units (TCUs), and speakers and listeners will know that such forms can be a word or a clause, and use that knowledge to predict when a speaker is finished so that others can speak, to avoid or minimize both overlap and silence.&quot; (Wikipedia)</rdfs:comment>
         <rdfs:label>turn conversational unit</rdfs:label>
     </owl:Class>
@@ -1257,7 +1359,6 @@
     <!-- http://w3id.org/nco#NCF_0000132 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000132">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000130"/>
         <rdfs:comment>basic element of language that carries meaning, can be used on its own, and is uninterruptible (Wikipedia)</rdfs:comment>
         <rdfs:label>words</rdfs:label>
     </owl:Class>
@@ -1267,7 +1368,6 @@
     <!-- http://w3id.org/nco#NCF_0000133 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000133">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000130"/>
         <rdfs:comment>&quot;group of words or singular word acting as a grammatical unit.&quot; (Wikipedia)</rdfs:comment>
         <rdfs:label>phrases</rdfs:label>
     </owl:Class>
@@ -1277,7 +1377,6 @@
     <!-- http://w3id.org/nco#NCF_0000134 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000134">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000130"/>
         <rdfs:comment>constituent or phrase that comprises a semantic predicand (expressed or not) and a semantic predicate. A typical clause consists of a subject and a syntactic predicate, the latter typically a verb phrase composed of a verb with or without any objects and other modifiers. (Wikipedia)</rdfs:comment>
         <rdfs:label>clauses</rdfs:label>
     </owl:Class>
@@ -1287,7 +1386,6 @@
     <!-- http://w3id.org/nco#NCF_0000135 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000135">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000130"/>
         <rdfs:comment>string of words that expresses a complete thought, or as a unit consisting of a subject and predicate (Wikipedia)</rdfs:comment>
         <rdfs:label>sentence</rdfs:label>
     </owl:Class>
@@ -2010,6 +2108,12 @@
     <!-- http://w3id.org/nco#NCF_0000207 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000207">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000122"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>An artifical autonomous system</rdfs:comment>
         <rdfs:label>agent</rdfs:label>
         <core:altLabel>software agent</core:altLabel>
@@ -2020,9 +2124,16 @@
     <!-- http://w3id.org/nco#NCF_0000208 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000208">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000207"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000122"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>A human participant in an interaction (e.g.conversation) with a machine</rdfs:comment>
         <rdfs:label>user</rdfs:label>
-        <core:altLabel>human</core:altLabel>
+        <core:altLabel>human user</core:altLabel>
     </owl:Class>
 </rdf:RDF>
 
