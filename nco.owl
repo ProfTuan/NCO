@@ -1278,6 +1278,12 @@
     <!-- http://w3id.org/nco#NCF_0000125 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000125">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002327"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000136"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>Smallest unit of speech</rdfs:comment>
         <rdfs:label>utterance</rdfs:label>
     </owl:Class>
@@ -1408,6 +1414,12 @@
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000136">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002333"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000125"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>&quot;Sequences are general patterns that, like tools or devices, can be used and reused in all kinds of different situations and settings, for all kinds of different purposes. &quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>sequence</rdfs:label>
     </owl:Class>
