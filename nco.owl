@@ -38,6 +38,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0020002 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0020002">
+        <owl:equivalentClass rdf:resource="http://w3id.org/nco#NCF_0000125"/>
+    </rdf:Description>
+    
+
+
     <!-- http://w3id.org/nco#NCF_0000001 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000001">
@@ -1318,25 +1326,25 @@
         <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCF_0000125"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000132"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000133"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000134"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000058"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000135"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1359,6 +1367,7 @@
     <!-- http://w3id.org/nco#NCF_0000132 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:comment>basic element of language that carries meaning, can be used on its own, and is uninterruptible (Wikipedia)</rdfs:comment>
         <rdfs:label>words</rdfs:label>
     </owl:Class>
@@ -1368,6 +1377,7 @@
     <!-- http://w3id.org/nco#NCF_0000133 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:comment>&quot;group of words or singular word acting as a grammatical unit.&quot; (Wikipedia)</rdfs:comment>
         <rdfs:label>phrases</rdfs:label>
     </owl:Class>
@@ -1377,6 +1387,7 @@
     <!-- http://w3id.org/nco#NCF_0000134 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:comment>constituent or phrase that comprises a semantic predicand (expressed or not) and a semantic predicate. A typical clause consists of a subject and a syntactic predicate, the latter typically a verb phrase composed of a verb with or without any objects and other modifiers. (Wikipedia)</rdfs:comment>
         <rdfs:label>clauses</rdfs:label>
     </owl:Class>
@@ -1386,6 +1397,7 @@
     <!-- http://w3id.org/nco#NCF_0000135 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <rdfs:comment>string of words that expresses a complete thought, or as a unit consisting of a subject and predicate (Wikipedia)</rdfs:comment>
         <rdfs:label>sentence</rdfs:label>
     </owl:Class>
@@ -1395,6 +1407,7 @@
     <!-- http://w3id.org/nco#NCF_0000136 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCF_0000136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020011"/>
         <rdfs:comment>&quot;Sequences are general patterns that, like tools or devices, can be used and reused in all kinds of different situations and settings, for all kinds of different purposes. &quot; (Moore and Arar, 2019)</rdfs:comment>
         <rdfs:label>sequence</rdfs:label>
     </owl:Class>
