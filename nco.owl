@@ -1238,11 +1238,11 @@
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002516"/>
                         <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000123"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002524"/>
                         <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCF_0000124"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
