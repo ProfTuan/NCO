@@ -1491,6 +1491,12 @@
 
     <owl:Class rdf:about="http://w3id.org/nco#NCO_0000141">
         <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCO_0000137"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000063"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCO_0000124"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>an insertion sequence emerged out of the base adjacency pair (between the FPP and SPP).</rdfs:comment>
         <rdfs:label>insert expansion</rdfs:label>
     </owl:Class>
@@ -1510,6 +1516,12 @@
 
     <owl:Class rdf:about="http://w3id.org/nco#NCO_0000143">
         <rdfs:subClassOf rdf:resource="http://w3id.org/nco#NCO_0000137"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000063"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCO_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>a type of sequence expansion that occurs before the base sequence interaction, specifically before the FPP. They consist of their own sequence pairs</rdfs:comment>
         <rdfs:label>pre-expansion</rdfs:label>
         <core:altLabel>pre sequences</core:altLabel>
