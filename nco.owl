@@ -1239,11 +1239,11 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002516"/>
-                        <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCO_0000123"/>
+                        <owl:allValuesFrom rdf:resource="http://w3id.org/nco#NCO_0000123"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002524"/>
-                        <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCO_0000124"/>
+                        <owl:allValuesFrom rdf:resource="http://w3id.org/nco#NCO_0000124"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
