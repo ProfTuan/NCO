@@ -1,0 +1,41 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ro.owl
+
+[Source ontology]
+RO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/RO_0002086 #ends after
+http://purl.obolibrary.org/obo/RO_0010002 #is carrier of
+http://purl.obolibrary.org/obo/RO_0002566 # causally influences
+http://purl.obolibrary.org/obo/RO_0002519 # is end sequence of
+
+http://purl.obolibrary.org/obo/RO_0000053 #has characteristic
+http://purl.obolibrary.org/obo/RO_0002533 #sequence atomic unit
+http://purl.obolibrary.org/obo/RO_0002532 #sequentially ordered unit
+http://purl.obolibrary.org/obo/RO_0002516 #has start sequence
+http://purl.obolibrary.org/obo/RO_0002520 #is consecutive sequence of
+http://purl.obolibrary.org/obo/RO_0002524 # has sequence
+http://purl.obolibrary.org/obo/RO_0002514 #sequentially related to
+
+http://purl.obolibrary.org/obo/RO_0000057 #has participant
+http://purl.obolibrary.org/obo/RO_0002333 #enabled by
+
+http://purl.obolibrary.org/obo/BFO_0000051 #has part
+
+http://purl.obolibrary.org/obo/RO_0000057 # has participant
+http://purl.obolibrary.org/obo/RO_0000059 #concretes
+http://purl.obolibrary.org/obo/RO_0000058 # is concertizes as
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/RO_0002222 #temporally related to
+http://purl.obolibrary.org/obo/RO_0002514 #sequentially related to
+
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]

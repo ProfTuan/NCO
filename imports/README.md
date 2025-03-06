@@ -7,4 +7,6 @@ Selected imported ontologies for terms
  - The Relation Ontology (RO)
  - The Information Artifact Ontology (IAO)  
 
-Under development... check back later
+## Ontofox scripts
+
+Folder "ontofox-scripts" contains files to reproduce the extracted terms located in this import folder. Follow the instructions on OntoFox using the files in the "ontofox-scripts" for "Data input using local text file".
