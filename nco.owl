@@ -1100,6 +1100,12 @@
                 <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCO_0000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCO_0000136"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>expandable sequences, like an accordion [Moore et al. 2016, Moore 2018]. Compact sequences are common, but each sequence can be expanded by either party as needed.</rdfs:comment>
         <rdfs:label>interaction model</rdfs:label>
     </owl:Class>
