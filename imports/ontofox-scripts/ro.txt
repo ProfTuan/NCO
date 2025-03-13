@@ -9,6 +9,8 @@ http://purl.obolibrary.org/obo/RO_0002086 #ends after
 http://purl.obolibrary.org/obo/RO_0010002 #is carrier of
 http://purl.obolibrary.org/obo/RO_0002566 # causally influences
 http://purl.obolibrary.org/obo/RO_0002519 # is end sequence of
+http://purl.obolibrary.org/obo/BFO_0000054  #realized in
+http://purl.obolibrary.org/obo/BFO_0000055  #realizes
 
 http://purl.obolibrary.org/obo/RO_0000053 #has characteristic
 http://purl.obolibrary.org/obo/RO_0002533 #sequence atomic unit
