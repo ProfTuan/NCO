@@ -1,10 +1,10 @@
 [![Authored with Protégé](https://img.shields.io/static/v1?label=Authored%20with&message=Protégé&color=purple&style=flat)](https://protege.stanford.edu/)
 
-# Natural Conversational Ontology (NCO)
+# Natural Conversation Ontology (NCO)
 
-http://w3id.org/nco
+The Natural Conversation Ontology is a computable artifact that incorporates the knowledge base of conversation analysis. The artifacts aims to provide a machine readable model that can standarize the domain of conversation analysis.
 
-Under development ... check back later
+PURL: http://w3id.org/nco or http://w3id.org/nco/merged (for merged version) 
 
 
 ## Developers
