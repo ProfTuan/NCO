@@ -1,0 +1,17 @@
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix nco: <https://w3id.org/nco/> .
+
+nco:annotated.owl
+  rdf:type owl:Ontology ;
+  rdfs:seeAlso "https://github.com/ProfTuan/NCO";
+  dc:title "Natural Conversation Ontology";
+  dc:creator "Tuan Amith, PhD";
+  dc:creator "Xubing Hao, PhD";
+  dc:contributor "Licong Cui, PhD";
+  dc:contributor "Kirk Roberts, PhD";
+  dc:contributor "Cui Tao, PhD";
+  dc:description "An ontology describing the domain space of conversation analysis" ;
+  owl:version "2025-09-09";
+  dcterms:license "https://creativecommons.org/licenses/by-nc-nd/4.0/" .
