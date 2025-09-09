@@ -2,9 +2,9 @@
 
 # Natural Conversation Ontology (NCO)
 
-The Natural Conversation Ontology is a computable artifact that incorporates the knowledge base of conversation analysis. The artifacts aims to provide a machine readable model that can standarize the domain of conversation analysis.
+The Natural Conversation Ontology is a computable artifact that incorporates the knowledge base of conversation analysis. The artifacts aims to provide a machine readable model that can standardize the domain of conversation analysis.
 
-PURL: http://w3id.org/nco or http://w3id.org/nco/merged (for merged version) 
+PURL: http://w3id.org/nco  
 
 
 ## Developers
@@ -14,4 +14,4 @@ PURL: http://w3id.org/nco or http://w3id.org/nco/merged (for merged version)
 - Licong Cui
 
 ## License
- Natural Conversational Ontology (NCO)  © 2024 is licensed under CC BY-NC-ND 4.0 
+ Natural Conversational Ontology (NCO)  © 2025 is licensed under CC BY-NC-ND 4.0 
