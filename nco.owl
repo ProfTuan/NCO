@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://w3id.org/nco#"
      xml:base="http://w3id.org/nco"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:nco="http://w3id.org/nco#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -21,12 +22,14 @@
         <terms:contributor>Kirk Roberts, PhD</terms:contributor>
         <terms:contributor>Licong Cui, PhD</terms:contributor>
         <terms:creator>Tuan Amith, PhD</terms:creator>
+        <terms:creator>Tuan Amith, Xubing Hao, and Licong Cui</terms:creator>
         <terms:creator>Xubing Hao, PhD</terms:creator>
         <terms:description>Natural Conversation Ontology (NCO) is based on knowledge derived from the Natural Conversation Framework (Moore and Arar), as well as, the amalgamation of theories of conversation analysis.</terms:description>
         <terms:license>https://creativecommons.org/licenses/by-nc-nd/4.0/</terms:license>
         <terms:title>Natural Conversation Ontology</terms:title>
         <rdfs:seeAlso>https://github.com/ProfTuan/NCO</rdfs:seeAlso>
         <owl:version>2025-09-09</owl:version>
+        <owl:versionInfo>prototype</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -479,6 +482,15 @@ Annotations: IAO_0000424 &quot;http://purl.obolibrary.org/obo/BFO_0000051 some (
     <!-- http://purl.org/spar/cito/citesAsAuthority -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/spar/cito/citesAsAuthority"/>
+    
+
+
+    <!-- http://w3id.org/nco#NCO_0000214 -->
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/nco#NCO_0000214">
+        <rdfs:label xml:lang="en">example utterance</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#example"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -2202,6 +2214,33 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://w3id.org/nco#NCO_0000217 -->
+
+    <owl:DatatypeProperty rdf:about="http://w3id.org/nco#NCO_0000217">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="en">been spoken</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://w3id.org/nco#NCO_0000218 -->
+
+    <owl:DatatypeProperty rdf:about="http://w3id.org/nco#NCO_0000218">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="en">has focus</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://w3id.org/nco#NCO_0000219 -->
+
+    <owl:DatatypeProperty rdf:about="http://w3id.org/nco#NCO_0000219">
+        <rdfs:domain rdf:resource="http://w3id.org/nco#NCO_0000125"/>
+        <rdfs:label xml:lang="en">utterance string</rdfs:label>
+    </owl:DatatypeProperty>
     
 
 
@@ -4402,6 +4441,12 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCO_0000136"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/nco#NCO_0000219"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment>Smallest unit of speech</rdfs:comment>
         <rdfs:label>utterance</rdfs:label>
     </owl:Class>
@@ -5558,34 +5603,10 @@ This interpretation is *not* the same as an at-all-times relation</obo:IAO_00001
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
@@ -5612,7 +5633,31 @@ This interpretation is *not* the same as an at-all-times relation</obo:IAO_00001
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
@@ -5622,18 +5667,18 @@ This interpretation is *not* the same as an at-all-times relation</obo:IAO_00001
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>

@@ -30,6 +30,64 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://w3id.org/nco#NCO_0000214 -->
+
+    <owl:AnnotationProperty rdf:about="http://w3id.org/nco#NCO_0000214">
+        <rdfs:label xml:lang="en">example utterance</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#example"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://w3id.org/nco#NCO_0000217 -->
+
+    <owl:DatatypeProperty rdf:about="http://w3id.org/nco#NCO_0000217">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="en">been spoken</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://w3id.org/nco#NCO_0000218 -->
+
+    <owl:DatatypeProperty rdf:about="http://w3id.org/nco#NCO_0000218">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="en">has focus</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://w3id.org/nco#NCO_0000219 -->
+
+    <owl:DatatypeProperty rdf:about="http://w3id.org/nco#NCO_0000219">
+        <rdfs:domain rdf:resource="http://w3id.org/nco#NCO_0000125"/>
+        <rdfs:label xml:lang="en">utterance string</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -1302,6 +1360,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002327"/>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/nco#NCO_0000136"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/nco#NCO_0000219"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>Smallest unit of speech</rdfs:comment>
