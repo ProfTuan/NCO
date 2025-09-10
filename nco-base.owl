@@ -2185,6 +2185,7 @@
     <!-- http://w3id.org/nco#NCO_0000207 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCO_0000207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>

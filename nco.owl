@@ -21,7 +21,6 @@
         <terms:contributor>Kirk Roberts, PhD</terms:contributor>
         <terms:contributor>Licong Cui, PhD</terms:contributor>
         <terms:creator>Tuan Amith, PhD</terms:creator>
-        <terms:creator>Tuan Amith, Xubing Hao, and Licong Cui</terms:creator>
         <terms:creator>Xubing Hao, PhD</terms:creator>
         <terms:description>Natural Conversation Ontology (NCO) is based on knowledge derived from the Natural Conversation Framework (Moore and Arar), as well as, the amalgamation of theories of conversation analysis.</terms:description>
         <terms:license>https://creativecommons.org/licenses/by-nc-nd/4.0/</terms:license>
@@ -5284,6 +5283,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://w3id.org/nco#NCO_0000207 -->
 
     <owl:Class rdf:about="http://w3id.org/nco#NCO_0000207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
