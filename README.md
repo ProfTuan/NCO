@@ -4,8 +4,11 @@
 
 The Natural Conversation Ontology is a computable artifact that incorporates the knowledge base of conversation analysis. The artifacts aims to provide a machine readable model that can standardize the domain of conversation analysis.
 
-PURL: http://w3id.org/nco  
+PURL: 
 
+http://w3id.org/nco  
+
+http://w3id.org/nco/base (only the core artifact)
 
 ## Developers
 
